@@ -30,4 +30,26 @@ def rotate_matrix(x, y, angle, x_shift=0, y_shift=0, units="DEGREES"):
     if units == "DEGREES":
         angle = math.radians(angle)
 
-    # Rotation 
+    # Rotation matrix multiplication to get rotated x & y
+    xr = (x * math.cos(angle)) - (y * math.sin(angle)) + x_shift
+    yr = (x * math.sin(angle)) + (y * math.cos(angle)) + y_shift
+
+    return xr, yr
+
+
+# Text processing helper functions
+def cosine_similarity(a, b):
+    if a is None or b is None:
+        return 0
+    # TODO: idk if we should do this when the shape doenst match
+    if len(a) != len(b):
+        return 0
+    return dot(a, b) / (norm(a) * norm(b))
+
+
+def get_embedding(text, model="text-embedding-ada-002"):
+    text = text.replace("\n", " ")
+    return openai.Embedding.create(input=[text], model=model)["data"][0]["embedding"]
+
+
+def get_no
