@@ -32,4 +32,19 @@ def add_sentence(sentence: str):
 
 @app.get("/chunk")
 def process_sentence_chunk(chunk: str):
-    sentences = nltk.sen
+    sentences = nltk.sent_tokenize(chunk)
+    for sentence in sentences:
+        add_sentence(sentence)
+    return graph.to_json()
+
+@app.post("/scribe")
+async def scribe(audio: UploadFile = File(...)):
+    content = await audio.read()
+    transcript = transcribe_audio(content)
+    print(transcript)
+    return transcript
+
+@app.get("/get-graph")
+def get_graph():
+    print(graph.to_json())
+    return graph.to_json()
