@@ -52,4 +52,23 @@ def get_embedding(text, model="text-embedding-ada-002"):
     return openai.Embedding.create(input=[text], model=model)["data"][0]["embedding"]
 
 
-def get_no
+def get_node_distance_from_similarity(similarity: float) -> tuple[int, int]:
+    max_dist = 300
+    min_dist = 100
+    # scale a number from 0 to 1 to 50 to 10
+    distance = round(
+        (max_dist - min_dist) * similarity + min_dist
+    )  # TODO: maybe better distance instead of x = y
+
+    (x, y) = rotate_matrix(distance, distance, random.randint(0, 360))
+
+    return (x, y)
+
+
+# Node as json { keyword: string, position: {x: int, y: int}, data: { sentence: string } }
+class Node:
+    def __init__(
+        self, keyword: str, position: dict, sentences: list[str], embedding: list
+    ):
+        self.keyword = keyword
+        
