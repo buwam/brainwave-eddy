@@ -86,4 +86,30 @@ class Node:
 class Edge:
     def __init__(self, id: int, source: str, target: str, data: dict):
         self.id = id
-        se
+        self.source = source
+        self.target = target
+        self.data = data
+
+    def to_json(self):
+        return {
+            "id": self.id,
+            "source": self.source,
+            "target": self.target,
+            "data": self.data,
+        }
+
+
+class Graph:
+    def __init__(self):
+        self.nodes = set()
+        self.edges = set()
+        self.add_node(Node("root", {"x": 0, "y": 0}, [], []))  # add root node
+
+    def add_node(self, node: Node):
+        self.nodes.add(node)
+
+    def add_edge(self, edge: Edge):
+        self.edges.add(edge)
+
+    def get_nodes(self):
+        retur
