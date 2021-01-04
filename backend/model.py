@@ -71,4 +71,19 @@ class Node:
         self, keyword: str, position: dict, sentences: list[str], embedding: list
     ):
         self.keyword = keyword
-        
+        self.position = position
+        self.data = {"sentences": sentences, "embedding": embedding}
+
+    def to_json(self):  # omit data.embedding
+        data = {"sentences": self.data["sentences"]}
+        return {"keyword": self.keyword, "position": self.position, "data": data}
+
+    def get_similarity(self, keyword_embedding):
+        return cosine_similarity(self.data["embedding"], keyword_embedding)
+
+
+# Edge as json { id: int, source: string (nodeId), target: string (nodeId), data: { strength: int } }
+class Edge:
+    def __init__(self, id: int, source: str, target: str, data: dict):
+        self.id = id
+        se
