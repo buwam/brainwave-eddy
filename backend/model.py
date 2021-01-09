@@ -112,4 +112,30 @@ class Graph:
         self.edges.add(edge)
 
     def get_nodes(self):
-        retur
+        return self.nodes
+
+    def get_edges(self):
+        return self.edges
+
+    def debug(self):
+        print("nodes: ", len(self.nodes))
+        for node in self.nodes:
+            print(node.to_json())
+        print("edges: ", len(self.edges))
+        for edge in self.edges:
+            print(edge)
+
+    def to_json(self):
+        return {
+            "nodes": [node.to_json() for node in self.nodes],
+            "edges": [edge.to_json() for edge in self.edges],
+        }
+
+
+CREATION_THRESHOLD = 0.5  # Threshold for adding a new node
+COLLAPSE_THRESHOLD = 0.8  # Threshold for collapsing two nodes
+
+edge_count = 0
+
+
+def add_sentence_nod
