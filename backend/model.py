@@ -138,4 +138,19 @@ COLLAPSE_THRESHOLD = 0.8  # Threshold for collapsing two nodes
 edge_count = 0
 
 
-def add_sentence_nod
+def add_sentence_node(sentence: str, graph: Graph):
+    global edge_count
+    sentence_embedding = get_embedding(sentence)
+
+    for node in graph.get_nodes():
+        if node.get_similarity(sentence_embedding) > COLLAPSE_THRESHOLD:
+            print("keyword already exists, merging")
+            node.data["sentences"].append(sentence)
+            return
+
+    keyword = openai.Completion.create(
+        model="text-davinci-003",
+        prompt="\
+            Extract the most descriptive keyword (one to four words total) that represents the core idea of this sentence:\n\n\
+            For example:\n\
+            Sentence: Black-on-bl
