@@ -153,4 +153,22 @@ def add_sentence_node(sentence: str, graph: Graph):
         prompt="\
             Extract the most descriptive keyword (one to four words total) that represents the core idea of this sentence:\n\n\
             For example:\n\
-            Sentence: Black-on-bl
+            Sentence: Black-on-black ware is a 20th- and 21st-century pottery tradition developed by the Puebloan Native American ceramic artists in Northern New Mexico.\n\
+            Keyword: Puebloan Pottery\n\
+            Sentence: "
+        + sentence
+        + "\n\nKeyword:\n-",
+        temperature=0.5,
+        max_tokens=10,
+        top_p=1.0,
+        frequency_penalty=0.8,
+        presence_penalty=0.0,
+    )["choices"][0]["text"]
+    print("keyword: ", keyword)
+
+    keyword_embedding = get_embedding(keyword)
+    max_similarity = 0
+    max_node = None
+    for node in graph.get_nodes():
+        similarity = node.get_similarity(keyword_embedding)
+        if 
