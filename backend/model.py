@@ -171,4 +171,18 @@ def add_sentence_node(sentence: str, graph: Graph):
     max_node = None
     for node in graph.get_nodes():
         similarity = node.get_similarity(keyword_embedding)
-        if 
+        if similarity > max_similarity:
+            max_similarity = similarity
+            max_node = node
+
+    (delta_x, delta_y) = get_node_distance_from_similarity(max_similarity)
+    print(edge_count)
+    edge_count += 1
+    if max_similarity < CREATION_THRESHOLD or max_node is None:
+        print("new node to root")
+        (x, y) = (delta_x, delta_y)
+        edge = Edge(edge_count, "root", keyword, {"strength": 1})
+    else:
+        print("new node to ", max_node.keyword, " with similarity ", max_similarity)
+        (x, y) = (max_node.position["x"] + delta_x, max_node.position["y"] + delta_y)
+        edge = Edge(edge_count, max_node
