@@ -185,4 +185,20 @@ def add_sentence_node(sentence: str, graph: Graph):
     else:
         print("new node to ", max_node.keyword, " with similarity ", max_similarity)
         (x, y) = (max_node.position["x"] + delta_x, max_node.position["y"] + delta_y)
-        edge = Edge(edge_count, max_node
+        edge = Edge(edge_count, max_node.keyword, keyword, {"strength": max_similarity})
+
+    node = Node(keyword, {"x": x, "y": y}, [sentence], keyword_embedding)
+    graph.add_node(node)
+    graph.add_edge(edge)
+
+
+# graph = Graph()
+# test_sentences = [
+#     "Today, I want to go to the store",
+#     "At the store, I want to buy some milk",
+#     "I want to buy some milk because I am hungry",
+#     "Cats are cool",
+# ]
+# for s in test_sentences:
+#     add_sentence_node(s, graph)
+# graph.debug()
