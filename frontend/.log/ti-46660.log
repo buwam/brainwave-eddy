@@ -10,4 +10,15 @@
 [08:22:38.880] Adding entry into typings cache: 'styled-components' => '/Users/bjar/Library/Caches/typescript/4.9/node_modules/@types/styled-components/index.d.ts'
 [08:22:38.880] Finished processing cache location '/Users/bjar/Library/Caches/typescript/4.9'
 [08:22:38.881] Process id: 46661
-[08:22:38.881] NPM location: /
+[08:22:38.881] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[08:22:38.881] validateDefaultNpmLocation: false
+[08:22:38.881] Npm config file: /Users/bjar/Library/Caches/typescript/4.9/package.json
+[08:22:38.881] Updating types-registry npm package...
+[08:22:38.882] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[08:22:39.793]     Succeeded. stdout:
+    
+    changed 1 package, and audited 15 packages in 735ms
+
+found 0 vulnerabilities
+
+[08:22:39.793] Updated types-registry npm package
