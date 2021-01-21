@@ -1,3 +1,8 @@
 Info 0    [08:22:38.649] Starting TS Server
 Info 1    [08:22:38.650] Version: 4.9.5
-Info 2    [08:22:38.650] Arguments: /usr/local/bin/node /Us
+Info 2    [08:22:38.650] Arguments: /usr/local/bin/node /Users/bjar/git/treehacks/frontend/node_modules/typescript/lib/tsserver.js --logFile /Users/bjar/git/treehacks/frontend/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/b1/p5d4gl2s32ggycyg1vpgzrlh0000gn/T/502819c3cb88e67dc03b8e761940083a/tscancellation*
+Info 3    [08:22:38.650] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [08:22:38.650] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [08:22:38.664] Format host information updated
+Info 6    [08:22:39.435] Search path: /Users/bjar/git/treehacks/frontend/src/components
+Info 7    [08:22:39.436] For info: /Users/bjar/git/treehacks/frontend/src/co
