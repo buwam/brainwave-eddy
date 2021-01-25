@@ -40,4 +40,11 @@ Info 9    [08:22:39.455] Config: /Users/bjar/git/treehacks/frontend/tsconfig.jso
   "configFilePath": "/Users/bjar/git/treehacks/frontend/tsconfig.json"
  }
 }
-Info 10   [08:22:39.535] Starting updateGraphWork
+Info 10   [08:22:39.535] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 11   [08:22:41.339] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1803.9713039398193ms
+Info 12   [08:22:41.339] Project '/Users/bjar/git/treehacks/frontend/tsconfig.json' (Configured)
+Info 13   [08:22:41.339] 	Files (331)
+
+Info 14   [08:22:41.339] -----------------------------------------------
+Info 15   [08:22:41.346] AutoImportProviderProject: found 2 root files in 2 dependencies in 4.747957229614258 ms
+Info 16   [08:22:41.347] Starting updateGraphWo
