@@ -5,4 +5,13 @@ Info 3    [08:22:38.650] Platform: darwin NodeVersion: 16 CaseSensitive: false
 Info 4    [08:22:38.650] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
 Info 5    [08:22:38.664] Format host information updated
 Info 6    [08:22:39.435] Search path: /Users/bjar/git/treehacks/frontend/src/components
-Info 7    [08:22:39.436] For info: /Users/bjar/git/treehacks/frontend/src/co
+Info 7    [08:22:39.436] For info: /Users/bjar/git/treehacks/frontend/src/components/Node.tsx :: Config file name: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 8    [08:22:39.436] Creating configuration project /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 9    [08:22:39.455] Config: /Users/bjar/git/treehacks/frontend/tsconfig.json : {
+ "rootNames": [
+  "/Users/bjar/git/treehacks/frontend/src/App.test.tsx",
+  "/Users/bjar/git/treehacks/frontend/src/App.tsx",
+  "/Users/bjar/git/treehacks/frontend/src/index.tsx",
+  "/Users/bjar/git/treehacks/frontend/src/react-app-env.d.ts",
+  "/Users/bjar/git/treehacks/frontend/src/reportWebVitals.ts",
+  "/Users/bjar/git/treehacks/frontend/src/setupTe
