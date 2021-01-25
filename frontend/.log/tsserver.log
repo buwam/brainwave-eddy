@@ -14,4 +14,30 @@ Info 9    [08:22:39.455] Config: /Users/bjar/git/treehacks/frontend/tsconfig.jso
   "/Users/bjar/git/treehacks/frontend/src/index.tsx",
   "/Users/bjar/git/treehacks/frontend/src/react-app-env.d.ts",
   "/Users/bjar/git/treehacks/frontend/src/reportWebVitals.ts",
-  "/Users/bjar/git/treehacks/frontend/src/setupTe
+  "/Users/bjar/git/treehacks/frontend/src/setupTests.ts",
+  "/Users/bjar/git/treehacks/frontend/src/components/Node.tsx"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "configFilePath": "/Users/bjar/git/treehacks/frontend/tsconfig.json"
+ }
+}
+Info 10   [08:22:39.535] Starting updateGraphWork
