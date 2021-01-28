@@ -47,4 +47,11 @@ Info 13   [08:22:41.339] 	Files (331)
 
 Info 14   [08:22:41.339] -----------------------------------------------
 Info 15   [08:22:41.346] AutoImportProviderProject: found 2 root files in 2 dependencies in 4.747957229614258 ms
-Info 16   [08:22:41.347] Starting updateGraphWo
+Info 16   [08:22:41.347] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [08:22:41.486] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 138.89310312271118ms
+Info 18   [08:22:41.499] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [08:22:41.500] 	Files (40)
+
+Info 20   [08:22:41.500] -----------------------------------------------
+Info 21   [08:25:36.186] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 22   [08:25:36.209] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/fro
