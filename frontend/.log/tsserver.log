@@ -93,4 +93,10 @@ Info 57   [08:25:45.268] Starting updateGraphWorker: Project: /Users/bjar/git/tr
 Info 58   [08:25:45.282] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 13.447670936584473ms
 Info 59   [08:25:45.282] Different program with same set of files
 Info 60   [08:25:45.284] getCompletionData: Get current token: 0.011113643646240234
-Info 61   [08:25:45.284] getCompletionD
+Info 61   [08:25:45.284] getCompletionData: Is inside comment: 0.02947854995727539
+Info 62   [08:25:45.284] getCompletionData: Get previous token: 0.06691503524780273
+Info 63   [08:25:45.285] getCompletionsAtPosition: isCompletionListBlocker: 0.36371803283691406
+Info 64   [08:25:45.291] getExportInfoMap: cache miss or empty; calculating new results
+Info 65   [08:25:45.405] forEachExternalModuleToImportFrom autoImportProvider: 10.762516021728516
+Info 66   [08:25:45.405] getExportInfoMap: done in 114.44620180130005 ms
+Info 67   [08:25:45.427] collectAutoImports: resolved 4 module specifiers, plus 24 ambient and 92 from cache
