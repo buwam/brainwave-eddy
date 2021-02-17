@@ -100,3 +100,11 @@ Info 64   [08:25:45.291] getExportInfoMap: cache miss or empty; calculating new 
 Info 65   [08:25:45.405] forEachExternalModuleToImportFrom autoImportProvider: 10.762516021728516
 Info 66   [08:25:45.405] getExportInfoMap: done in 114.44620180130005 ms
 Info 67   [08:25:45.427] collectAutoImports: resolved 4 module specifiers, plus 24 ambient and 92 from cache
+Info 68   [08:25:45.427] collectAutoImports: response is complete
+Info 69   [08:25:45.427] collectAutoImports: 21.805171012878418
+Info 70   [08:25:45.427] getCompletionData: Semantic work: 142.18096208572388
+Info 71   [08:25:45.458] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 30.248631954193115
+Info 72   [08:25:45.466] getCompletionData: Get current token: 0.0052700042724609375
+Info 73   [08:25:45.466] getCompletionData: Is inside comment: 0.012250900268554688
+Info 74   [08:25:45.466] getCompletionData: Get previous token: 0.025812149047851562
+Info 75   [08:25:45.466] getCompletionsAtPosition: isCompletionListBlocker: 0.0
