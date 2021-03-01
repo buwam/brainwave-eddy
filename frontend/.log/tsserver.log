@@ -114,4 +114,12 @@ Info 78   [08:25:45.493] collectAutoImports: response is complete
 Info 79   [08:25:45.493] collectAutoImports: 23.756093978881836
 Info 80   [08:25:45.493] getCompletionData: Semantic work: 26.742379188537598
 Info 81   [08:25:45.531] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 38.80939817428589
-Info 82   [08:25:45.541] getCompletionData: Get current token: 0.0044498443
+Info 82   [08:25:45.541] getCompletionData: Get current token: 0.0044498443603515625
+Info 83   [08:25:45.541] getCompletionData: Is inside comment: 0.012987136840820312
+Info 84   [08:25:45.542] getCompletionData: Get previous token: 0.026134967803955078
+Info 85   [08:25:45.542] getCompletionsAtPosition: isCompletionListBlocker: 0.021561145782470703
+Info 86   [08:25:45.545] getExportInfoMap: cache hit
+Info 87   [08:25:45.565] collectAutoImports: resolved 0 module specifiers, plus 24 ambient and 96 from cache
+Info 88   [08:25:45.565] collectAutoImports: response is complete
+Info 89   [08:25:45.565] collectAutoImports: 19.399968147277832
+Info 90   [08:25:45.565] getCompletion
