@@ -149,4 +149,9 @@ Info 113  [08:25:46.309] collectAutoImports: resolved 13 module specifiers, plus
 Info 114  [08:25:46.309] collectAutoImports: response is complete
 Info 115  [08:25:46.309] collectAutoImports: 23.562477111816406
 Info 116  [08:25:46.309] getCompletionData: Semantic work: 28.10637331008911
-Info 117  [08:25:46.325] getComp
+Info 117  [08:25:46.325] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.198974132537842
+Info 118  [08:25:47.289] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 119  [08:25:47.301] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 12.457060813903809ms
+Info 120  [08:25:47.301] Different program with same set of files
+Info 121  [08:25:47.632] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 122  [08:25:47.645] Finishing updateGraphWorker: P
