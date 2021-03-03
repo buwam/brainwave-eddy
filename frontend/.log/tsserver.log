@@ -129,4 +129,11 @@ Info 93   [08:25:45.596] getCompletionData: Is inside comment: 0.012642383575439
 Info 94   [08:25:45.596] getCompletionData: Get previous token: 0.026391983032226562
 Info 95   [08:25:45.596] getCompletionsAtPosition: isCompletionListBlocker: 0.01624917984008789
 Info 96   [08:25:45.600] getExportInfoMap: cache hit
-Info 97   [08:25:45.618] collectAutoImports: resolved 0 module specifiers, plus 24 a
+Info 97   [08:25:45.618] collectAutoImports: resolved 0 module specifiers, plus 24 ambient and 96 from cache
+Info 98   [08:25:45.619] collectAutoImports: response is complete
+Info 99   [08:25:45.619] collectAutoImports: 18.6912260055542
+Info 100  [08:25:45.619] getCompletionData: Semantic work: 22.097344875335693
+Info 101  [08:25:45.639] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.62444496154785
+Info 102  [08:25:45.655] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 103  [08:25:45.749] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 93.8494062423706ms
+Info 104  [08:25:45.749] Di
