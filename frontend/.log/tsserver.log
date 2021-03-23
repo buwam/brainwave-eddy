@@ -186,4 +186,9 @@ Info 150  [08:25:56.591] collectAutoImports: 109.48846292495728
 Info 151  [08:25:56.592] getCompletionData: Semantic work: 121.6791763305664
 Info 152  [08:25:56.642] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 49.84273910522461
 Info 153  [08:25:57.052] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 154  [08:25:57.061] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig
+Info 154  [08:25:57.061] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 9.205575942993164ms
+Info 155  [08:25:57.061] Different program with same set of files
+Info 156  [08:25:58.408] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 157  [08:25:58.418] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 9.95352840423584ms
+Info 158  [08:25:58.418] Different program with same set of files
+Info 159  [08:25:58.712] Starting updateGraphWorker: Project: 
