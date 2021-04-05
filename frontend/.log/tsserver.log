@@ -196,4 +196,10 @@ Info 160  [08:25:58.722] Finishing updateGraphWorker: Project: /Users/bjar/git/t
 Info 161  [08:25:58.722] Different program with same set of files
 Info 162  [08:25:59.355] Format host information updated
 Info 163  [08:26:01.536] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 164  [08:26:01.550] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 28 structureC
+Info 164  [08:26:01.550] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 13.67798662185669ms
+Info 165  [08:26:01.550] Different program with same set of files
+Info 166  [08:26:01.872] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 167  [08:26:01.881] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 9.726317882537842ms
+Info 168  [08:26:01.882] Different program with same set of files
+Info 169  [08:26:02.570] Format host information updated
+Info 170  [08:26:02.572] Starting update
