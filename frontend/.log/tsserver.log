@@ -282,4 +282,10 @@ Info 246  [08:55:16.884] getExportInfoMap: cache hit
 Info 247  [08:55:16.938] collectAutoImports: resolved 0 module specifiers, plus 658 ambient and 1670 from cache
 Info 248  [08:55:16.938] collectAutoImports: response is complete
 Info 249  [08:55:16.938] collectAutoImports: 54.02699136734009
-Info 250  [08:55:16.938] getCompletionData: Semantic work: 5
+Info 250  [08:55:16.938] getCompletionData: Semantic work: 56.424381256103516
+Info 251  [08:55:16.976] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 37.33865213394165
+Info 252  [08:55:17.292] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 253  [08:55:17.300] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 8.414754867553711ms
+Info 254  [08:55:17.300] Different program with same set of files
+Info 255  [08:55:17.692] Format host information updated
+Info 256  [08:55:17.937] Starting upd
