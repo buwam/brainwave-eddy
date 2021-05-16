@@ -360,4 +360,7 @@ Info 324  [08:56:55.270] Finishing updateGraphWorker: Project: /Users/bjar/git/t
 Info 325  [08:56:57.518] Before ensureProjectForOpenFiles:
 Info 326  [08:56:57.518] After ensureProjectForOpenFiles:
 Info 327  [08:56:57.518] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
-Info 328  [08:57:19.477] FileWatcher:: Triggered with /Users/b
+Info 328  [08:57:19.477] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 329  [08:57:19.477] Elapsed:: 0.11754894256591797ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 330  [08:57:19.511] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 331
