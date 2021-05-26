@@ -375,4 +375,7 @@ Info 339  [08:57:23.332] Before ensureProjectForOpenFiles:
 Info 340  [08:57:23.332] After ensureProjectForOpenFiles:
 Info 341  [08:57:23.332] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
 Info 342  [08:57:32.801] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
-Info 343  [08:57:32.801] Elapsed:: 0.10312461853027344ms FileWatcher:: Triggered with /Users/bj
+Info 343  [08:57:32.801] Elapsed:: 0.10312461853027344ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 344  [08:57:32.832] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 345  [08:57:32.832] Elapsed:: 0.09687376022338867ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 346  [08:57:33.082] Starti
