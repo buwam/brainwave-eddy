@@ -450,4 +450,8 @@ Info 414  [08:58:27.402] Different program with same set of files
 Info 415  [08:58:28.725] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
 Info 416  [08:58:28.725] Elapsed:: 0.04690122604370117ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
 Info 417  [08:58:28.977] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 418  [08:58:28.9
+Info 418  [08:58:28.978] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 71 structureChanged: false structureIsReused:: SafeModules Elapsed: 1.4340119361877441ms
+Info 419  [08:58:31.227] Before ensureProjectForOpenFiles:
+Info 420  [08:58:31.227] After ensureProjectForOpenFiles:
+Info 421  [08:58:31.228] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
+Info 422  [08:58:36.983] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.
