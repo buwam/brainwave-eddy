@@ -468,4 +468,9 @@ Info 432  [08:58:37.264] Starting updateGraphWorker: Project: /Users/bjar/git/tr
 Info 433  [08:58:37.272] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 8.152460098266602ms
 Info 434  [08:58:37.272] Different program with same set of files
 Info 435  [08:58:39.080] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
-Info 436  [08:58:39.080] Elapsed:: 0.0590968132019043ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/Ap
+Info 436  [08:58:39.080] Elapsed:: 0.0590968132019043ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 437  [08:58:39.331] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 438  [08:58:39.333] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 2.4548563957214355ms
+Info 439  [08:58:41.580] Before ensureProjectForOpenFiles:
+Info 440  [08:58:41.580] After ensureProjectForOpenFiles:
+Info 441  [08:58:41.580] got projects updated in background, updating diagnostics for 
