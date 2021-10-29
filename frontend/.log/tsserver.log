@@ -503,4 +503,6 @@ Info 467  [08:59:15.277] After ensureProjectForOpenFiles:
 Info 468  [08:59:15.277] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
 Info 469  [08:59:21.984] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
 Info 470  [08:59:21.984] Elapsed:: 0.1017918586730957ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
-Info 471  [08:59:22.015]
+Info 471  [08:59:22.015] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 472  [08:59:22.015] Elapsed:: 0.07301568984985352ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 473  [08:59:22.076] DirectoryWatcher:: Triggered with /users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/a57954f1694383bf022c3094c68b1d34b1e6ea77b8595954eb93eed248e66ad6.json :: WatchInfo: /users/bjar
