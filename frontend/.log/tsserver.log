@@ -537,4 +537,10 @@ Info 501  [08:59:49.164] Different program with same set of files
 Info 502  [08:59:52.848] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
 Info 503  [08:59:52.857] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 9.589946746826172ms
 Info 504  [08:59:52.858] Different program with same set of files
-Info 505  [08:59:53.953] Starting updateGraphWorker: Project: /Users/bja
+Info 505  [08:59:53.953] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 506  [08:59:53.963] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 9.599049091339111ms
+Info 507  [08:59:53.963] Different program with same set of files
+Info 508  [08:59:53.966] getCompletionData: Get current token: 0.01564788818359375
+Info 509  [08:59:53.966] getCompletionData: Is inside comment: 0.030744075775146484
+Info 510  [08:59:53.966] getCompletionData: Get previous token: 0.030158042907714844
+Info 511  [08:59:53.966] getCompletionsAtPosition: i
