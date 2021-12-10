@@ -543,4 +543,10 @@ Info 507  [08:59:53.963] Different program with same set of files
 Info 508  [08:59:53.966] getCompletionData: Get current token: 0.01564788818359375
 Info 509  [08:59:53.966] getCompletionData: Is inside comment: 0.030744075775146484
 Info 510  [08:59:53.966] getCompletionData: Get previous token: 0.030158042907714844
-Info 511  [08:59:53.966] getCompletionsAtPosition: i
+Info 511  [08:59:53.966] getCompletionsAtPosition: isCompletionListBlocker: 0.20072603225708008
+Info 512  [08:59:53.966] Returning an empty list because completion was requested in an invalid position.
+Info 513  [08:59:54.269] getCompletionData: Get current token: 0.008398056030273438
+Info 514  [08:59:54.269] getCompletionData: Is inside comment: 0.019284725189208984
+Info 515  [08:59:54.269] getCompletionData: Get previous token: 0.022518157958984375
+Info 516  [08:59:54.269] getCompletionsAtPosition: isCompletionListBlocker: 0.0023403167724609375
+Info 517  [08:59:54.269] Returning an empty list because completion was requested in an invalid 
