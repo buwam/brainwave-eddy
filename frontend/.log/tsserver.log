@@ -549,4 +549,11 @@ Info 513  [08:59:54.269] getCompletionData: Get current token: 0.008398056030273
 Info 514  [08:59:54.269] getCompletionData: Is inside comment: 0.019284725189208984
 Info 515  [08:59:54.269] getCompletionData: Get previous token: 0.022518157958984375
 Info 516  [08:59:54.269] getCompletionsAtPosition: isCompletionListBlocker: 0.0023403167724609375
-Info 517  [08:59:54.269] Returning an empty list because completion was requested in an invalid 
+Info 517  [08:59:54.269] Returning an empty list because completion was requested in an invalid position.
+Info 518  [08:59:54.270] getCompletionData: Get current token: 0.0069599151611328125
+Info 519  [08:59:54.270] getCompletionData: Is inside comment: 0.01795196533203125
+Info 520  [08:59:54.270] getCompletionData: Get previous token: 0.021934032440185547
+Info 521  [08:59:54.270] getCompletionsAtPosition: isCompletionListBlocker: 0.002026081085205078
+Info 522  [08:59:54.270] Returning an empty list because completion was requested in an invalid position.
+Info 523  [08:59:54.270] getCompletionData: Get current token: 0.00681304931640625
+Info 524  [08:59:54.270] getCompletionData: Is inside comment: 0.0170049
