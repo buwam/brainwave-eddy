@@ -583,4 +583,8 @@ Info 547  [08:59:54.835] getCompletionData: Is inside comment: 0.017760753631591
 Info 548  [08:59:54.836] getCompletionData: Get previous token: 0.02214527130126953
 Info 549  [08:59:54.836] getCompletionsAtPosition: isCompletionListBlocker: 0.002330303192138672
 Info 550  [08:59:54.836] Returning an empty list because completion was requested in an invalid position.
-Info 551  
+Info 551  [08:59:55.352] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 552  [08:59:55.364] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 12.206926345825195ms
+Info 553  [08:59:55.364] Different program with same set of files
+Info 554  [08:59:55.679] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 555  [08:59:55.686] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 86 structureChanged: false structure
