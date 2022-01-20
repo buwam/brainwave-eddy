@@ -562,4 +562,11 @@ Info 526  [08:59:54.270] getCompletionsAtPosition: isCompletionListBlocker: 0.00
 Info 527  [08:59:54.270] Returning an empty list because completion was requested in an invalid position.
 Info 528  [08:59:54.519] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
 Info 529  [08:59:54.530] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 10.502182006835938ms
-Info 530  [08:59:54.530] Different pro
+Info 530  [08:59:54.530] Different program with same set of files
+Info 531  [08:59:54.531] getCompletionData: Get current token: 0.010141849517822266
+Info 532  [08:59:54.531] getCompletionData: Is inside comment: 0.02393198013305664
+Info 533  [08:59:54.531] getCompletionData: Get previous token: 0.029393672943115234
+Info 534  [08:59:54.531] getCompletionsAtPosition: isCompletionListBlocker: 0.0030837059020996094
+Info 535  [08:59:54.531] Returning an empty list because completion was requested in an invalid position.
+Info 536  [08:59:54.829] getCompletionData: Get current token: 0.007637977600097656
+Info 537  [08:59:54.829] getCompletionData: Is inside 
