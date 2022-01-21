@@ -594,4 +594,11 @@ Info 558  [08:59:55.982] Finishing updateGraphWorker: Project: /Users/bjar/git/t
 Info 559  [08:59:55.982] Different program with same set of files
 Info 560  [08:59:55.982] getCompletionData: Get current token: 0.007693290710449219
 Info 561  [08:59:55.982] getCompletionData: Is inside comment: 0.01874828338623047
-Info 562
+Info 562  [08:59:55.982] getCompletionData: Get previous token: 0.022787094116210938
+Info 563  [08:59:55.982] getCompletionsAtPosition: isCompletionListBlocker: 0.0033431053161621094
+Info 564  [08:59:55.982] Returning an empty list because completion was requested in an invalid position.
+Info 565  [08:59:56.271] getCompletionData: Get current token: 0.008610248565673828
+Info 566  [08:59:56.271] getCompletionData: Is inside comment: 0.01856517791748047
+Info 567  [08:59:56.271] getCompletionData: Get previous token: 0.02295207977294922
+Info 568  [08:59:56.271] getCompletionsAtPosition: isCompletionListBlocker: 0.0037469863891601562
+Info 569  [
