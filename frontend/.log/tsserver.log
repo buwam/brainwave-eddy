@@ -607,4 +607,10 @@ Info 571  [08:59:56.272] getCompletionData: Is inside comment: 0.018208026885986
 Info 572  [08:59:56.272] getCompletionData: Get previous token: 0.022119998931884766
 Info 573  [08:59:56.272] getCompletionsAtPosition: isCompletionListBlocker: 0.0021753311157226562
 Info 574  [08:59:56.272] Returning an empty list because completion was requested in an invalid position.
-Info 575  [08:59:56.272] getCompletionData: Get current token: 0.0067119
+Info 575  [08:59:56.272] getCompletionData: Get current token: 0.0067119598388671875
+Info 576  [08:59:56.272] getCompletionData: Is inside comment: 0.01680898666381836
+Info 577  [08:59:56.272] getCompletionData: Get previous token: 0.02104473114013672
+Info 578  [08:59:56.272] getCompletionsAtPosition: isCompletionListBlocker: 0.0020532608032226562
+Info 579  [08:59:56.272] Returning an empty list because completion was requested in an invalid position.
+Info 580  [08:59:56.273] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 581  [08:59:56.281] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 88 struct
