@@ -601,4 +601,10 @@ Info 565  [08:59:56.271] getCompletionData: Get current token: 0.008610248565673
 Info 566  [08:59:56.271] getCompletionData: Is inside comment: 0.01856517791748047
 Info 567  [08:59:56.271] getCompletionData: Get previous token: 0.02295207977294922
 Info 568  [08:59:56.271] getCompletionsAtPosition: isCompletionListBlocker: 0.0037469863891601562
-Info 569  [
+Info 569  [08:59:56.271] Returning an empty list because completion was requested in an invalid position.
+Info 570  [08:59:56.272] getCompletionData: Get current token: 0.007275104522705078
+Info 571  [08:59:56.272] getCompletionData: Is inside comment: 0.018208026885986328
+Info 572  [08:59:56.272] getCompletionData: Get previous token: 0.022119998931884766
+Info 573  [08:59:56.272] getCompletionsAtPosition: isCompletionListBlocker: 0.0021753311157226562
+Info 574  [08:59:56.272] Returning an empty list because completion was requested in an invalid position.
+Info 575  [08:59:56.272] getCompletionData: Get current token: 0.0067119
