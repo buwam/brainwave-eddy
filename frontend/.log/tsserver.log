@@ -631,4 +631,7 @@ Info 595  [08:59:57.800] Elapsed:: 0.017081737518310547ms DirectoryWatcher:: Tri
 Info 596  [08:59:57.864] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
 Info 597  [08:59:57.871] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 7.678540229797363ms
 Info 598  [08:59:57.871] Different program with same set of files
-Info 599  [09:00:08.592] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/fronten
+Info 599  [09:00:08.592] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 600  [09:00:08.592] Elapsed:: 0.17274904251098633ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 601  [09:00:08.623] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 602  [09:00:08.623] Elapsed:: 0.07871294021606445ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users
