@@ -659,4 +659,10 @@ Info 623  [09:00:21.923] Before ensureProjectForOpenFiles:
 Info 624  [09:00:21.924] After ensureProjectForOpenFiles:
 Info 625  [09:00:21.924] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
 Info 626  [09:00:22.496] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 627  [09:00:22.509] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 627  [09:00:22.509] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 13.079189777374268ms
+Info 628  [09:00:22.510] Different program with same set of files
+Info 629  [09:00:22.826] Format host information updated
+Info 630  [09:00:22.829] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 631  [09:00:22.847] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 18.193299770355225ms
+Info 632  [09:00:22.847] Different program with same set of files
+Info 
