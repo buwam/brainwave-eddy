@@ -650,4 +650,8 @@ Info 614  [09:00:09.878] Starting updateGraphWorker: Project: /Users/bjar/git/tr
 Info 615  [09:00:09.879] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 0.7523708343505859ms
 Info 616  [09:00:12.129] Before ensureProjectForOpenFiles:
 Info 617  [09:00:12.129] After ensureProjectForOpenFiles:
-Info 618  [09:00:12.129] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/s
+Info 618  [09:00:12.129] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
+Info 619  [09:00:19.422] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 620  [09:00:19.422] Elapsed:: 0.16245412826538086ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 621  [09:00:19.672] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 622  [09:00:19.674] Finishing updateGraphWorke
