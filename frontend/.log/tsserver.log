@@ -665,4 +665,7 @@ Info 629  [09:00:22.826] Format host information updated
 Info 630  [09:00:22.829] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
 Info 631  [09:00:22.847] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 18.193299770355225ms
 Info 632  [09:00:22.847] Different program with same set of files
-Info 
+Info 633  [09:00:23.356] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 634  [09:00:23.365] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 8.642088890075684ms
+Info 635  [09:00:23.365] Different program with same set of files
+Info 636  [09:00:23.691] DirectoryWatcher:: Triggered with /users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/6ddbfe2486f9bc644e2daeae37bf0e3678602a90370b5f314299408a85eedabf.json :: WatchInfo: /users/bj
