@@ -695,4 +695,8 @@ Info 659  [09:00:52.324] Elapsed:: 0.16533994674682617ms DirectoryWatcher:: Trig
 Info 660  [09:00:52.324] DirectoryWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/99a975d0e7078111b4c38c003dca2459e59a46101de5cc337fa1ecacb466d705.json :: WatchInfo: /Users/bjar/git/treehacks/frontend/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
 Info 661  [09:00:52.324] Elapsed:: 0.012440681457519531ms DirectoryWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/99a975d0e7078111b4c38c003dca2459e59a46101de5cc337fa1ecacb466d705.json :: WatchInfo: /Users/bjar/git/treehacks/frontend/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
 Info 662  [09:00:52.496] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 663  [09:00:52.511] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsco
+Info 663  [09:00:52.511] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 100 structureChanged: false structureIsReused:: Completely Elapsed: 15.316863059997559ms
+Info 664  [09:00:52.512] Different program with same set of files
+Info 665  [09:00:53.679] FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 666  [09:00:53.679] Elapsed:: 0.05020332336425781ms FileWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/src/App.tsx 1:: WatchInfo: /Users/bjar/git/treehacks/frontend/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 667
