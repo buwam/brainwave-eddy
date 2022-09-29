@@ -832,4 +832,10 @@ Info 796  [09:08:52.689] Starting updateGraphWorker: Project: /Users/bjar/git/tr
 Info 797  [09:08:52.690] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 104 structureChanged: false structureIsReused:: Completely Elapsed: 1.0770578384399414ms
 Info 798  [09:08:54.939] Before ensureProjectForOpenFiles:
 Info 799  [09:08:54.939] After ensureProjectForOpenFiles:
-Info 800  [09:08:54.940] got projects updated in background, updating d
+Info 800  [09:08:54.940] got projects updated in background, updating diagnostics for /Users/bjar/git/treehacks/frontend/src/components/Node.tsx
+Info 801  [09:09:07.524] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 802  [09:09:07.534] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 105 structureChanged: false structureIsReused:: Completely Elapsed: 9.728835105895996ms
+Info 803  [09:09:07.534] Different program with same set of files
+Info 804  [09:09:07.862] Format host information updated
+Info 805  [09:09:08.090] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 806  [09:09:08.101] Finishi
