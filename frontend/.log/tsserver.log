@@ -838,4 +838,7 @@ Info 802  [09:09:07.534] Finishing updateGraphWorker: Project: /Users/bjar/git/t
 Info 803  [09:09:07.534] Different program with same set of files
 Info 804  [09:09:07.862] Format host information updated
 Info 805  [09:09:08.090] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 806  [09:09:08.101] Finishi
+Info 806  [09:09:08.101] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 106 structureChanged: false structureIsReused:: Completely Elapsed: 10.258052349090576ms
+Info 807  [09:09:08.101] Different program with same set of files
+Info 808  [09:09:08.562] DirectoryWatcher:: Triggered with /users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/b94a881452b9a51384199f4447936c2c623848c1be081672021bd8a50b32321f.json :: WatchInfo: /users/bjar/git/treehacks/frontend/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 809  [09:09:08.562] Elapsed:: 0.020937919
