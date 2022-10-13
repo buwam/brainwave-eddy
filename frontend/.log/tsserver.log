@@ -863,4 +863,10 @@ Info 827  [09:09:11.627] Elapsed:: 0.021881103515625ms DirectoryWatcher:: Trigge
 Info 828  [09:09:11.627] DirectoryWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/b665c8a17746cb1bdc56dcc9285cab29a412c13907eb54ae8dbe5449ad6635e8.json :: WatchInfo: /Users/bjar/git/treehacks/frontend/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
 Info 829  [09:09:11.627] Elapsed:: 0.00974130630493164ms DirectoryWatcher:: Triggered with /Users/bjar/git/treehacks/frontend/node_modules/.cache/babel-loader/b665c8a17746cb1bdc56dcc9285cab29a412c13907eb54ae8dbe5449ad6635e8.json :: WatchInfo: /Users/bjar/git/treehacks/frontend/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
 Info 830  [09:09:11.714] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
-Info 831  [09:09:11.725] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 110 structureChanged: false structureIsReused:: Completely Elapsed: 11
+Info 831  [09:09:11.725] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 110 structureChanged: false structureIsReused:: Completely Elapsed: 11.000736713409424ms
+Info 832  [09:09:11.725] Different program with same set of files
+Info 833  [09:09:28.573] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 834  [09:09:28.589] Finishing updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json Version: 111 structureChanged: false structureIsReused:: Completely Elapsed: 15.35621690750122ms
+Info 835  [09:09:28.589] Different program with same set of files
+Info 836  [09:09:41.283] Starting updateGraphWorker: Project: /Users/bjar/git/treehacks/frontend/tsconfig.json
+Info 837  [09:09:41.294] Finishing updateGrap
