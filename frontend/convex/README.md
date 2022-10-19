@@ -19,4 +19,27 @@ export default query(async ({ db }, first, second) => {
   }
 
   // Query the database as many times as you need here.
-  // See https://docs.convex.dev/using/database-quer
+  // See https://docs.convex.dev/using/database-queries to learn how to write queries.
+  const documents = await db.query("tablename").collect();
+
+  // Write arbitrary JavaScript here: filter, aggregate, build derived data,
+  // remove non-public properties, or create new objects.
+  return documents;
+});
+```
+
+Using this query function in a React component looks like:
+
+```javascript
+const data = useQuery("myQueryFunction", 10, "hello");
+```
+
+A mutation function looks like:
+
+```javascript
+// myMutationFunction.js
+import { mutation } from "./_generated/server";
+
+export default mutation(async ({ db }, first, second) => {
+  // Validate arguments here.
+  if (t
