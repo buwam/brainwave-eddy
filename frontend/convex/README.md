@@ -42,4 +42,24 @@ import { mutation } from "./_generated/server";
 
 export default mutation(async ({ db }, first, second) => {
   // Validate arguments here.
-  if (t
+  if (typeof first !== "string" || typeof second !== "string") {
+    throw new Error("Both arguments must be strings");
+  }
+
+  // Insert or modify documents in the database here.
+  // Mutations can also read from the database like queries.
+  const message = { body: first, author: second };
+  const id = await db.insert("messages", message);
+
+  // Optionally, return a value from your mutation.
+  return await db.get(id);
+});
+```
+
+Using this mutation function in a React component looks like:
+
+```javascript
+const mutation = useMutation("myMutationFunction");
+function handleButtonPress() {
+  // fire and forget, the most common way to use mutations
+  mutation("
