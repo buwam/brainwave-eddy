@@ -11,4 +11,19 @@
 
 import type { ApiFromModules } from "convex/api";
 import type * as mutations_addEdge from "../mutations/addEdge";
-import type * as mutations_addNode from 
+import type * as mutations_addNode from "../mutations/addNode";
+import type * as mutations_modifyTranscript from "../mutations/modifyTranscript";
+import type * as queries_getEdges from "../queries/getEdges";
+import type * as queries_getNodes from "../queries/getNodes";
+
+/**
+ * A type describing your app's public Convex API.
+ *
+ * This `API` type includes information about the arguments and return
+ * types of your app's query and mutation functions.
+ *
+ * This type should be used with type-parameterized classes like
+ * `ConvexReactClient` to create app-specific types.
+ */
+export type API = ApiFromModules<{
+  "mutations/addEdge": typeof mutations_addE
