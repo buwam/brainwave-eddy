@@ -26,4 +26,9 @@ import type * as queries_getNodes from "../queries/getNodes";
  * `ConvexReactClient` to create app-specific types.
  */
 export type API = ApiFromModules<{
-  "mutations/addEdge": typeof mutations_addE
+  "mutations/addEdge": typeof mutations_addEdge;
+  "mutations/addNode": typeof mutations_addNode;
+  "mutations/modifyTranscript": typeof mutations_modifyTranscript;
+  "queries/getEdges": typeof queries_getEdges;
+  "queries/getNodes": typeof queries_getNodes;
+}>;
