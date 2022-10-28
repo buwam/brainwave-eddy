@@ -62,4 +62,13 @@ Using this mutation function in a React component looks like:
 const mutation = useMutation("myMutationFunction");
 function handleButtonPress() {
   // fire and forget, the most common way to use mutations
-  mutation("
+  mutation("Hello!", "me");
+  // OR
+  // use the result once the mutation has completed
+  mutation("Hello!", "me").then((result) => console.log(result));
+}
+```
+
+The Convex CLI is your friend. See everything it can do by running
+`npx convex -h` in your project root directory. To learn more, launch the docs
+with `npx convex docs`.
