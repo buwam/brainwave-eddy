@@ -15,4 +15,26 @@ import { GenericId } from "convex/values";
 /**
  * No `schema.ts` file found!
  *
- * This generated code has permissive types like `Documen
+ * This generated code has permissive types like `Document = any` because
+ * Convex doesn't know your schema. If you'd like more type safety, see
+ * https://docs.convex.dev/using/schemas for instructions on how to add a
+ * schema file.
+ *
+ * After you write a schema, rerun codegen with `npx convex codegen`.
+ */
+
+/**
+ * The names of all of your Convex tables.
+ */
+export type TableNames = string;
+
+/**
+ * The type of a document stored in Convex.
+ */
+export type Document = any;
+
+/**
+ * An identifier for a document in Convex.
+ *
+ * Convex documents are uniquely identified by their `Id`, which is accessible
+ * on the `_id` field. To learn more, see [Document 
