@@ -53,4 +53,9 @@ export declare const Id: typeof GenericId;
  * A type describing your Convex data model.
  *
  * This type includes information about what tables you have, the type of
- * documents sto
+ * documents stored in those tables, and the indexes defined on them.
+ *
+ * This type is used to parameterize methods like `queryGeneric` and
+ * `mutationGeneric` to make them type-safe.
+ */
+export type DataModel = AnyDataModel;
