@@ -37,4 +37,20 @@ export type Document = any;
  * An identifier for a document in Convex.
  *
  * Convex documents are uniquely identified by their `Id`, which is accessible
- * on the `_id` field. To learn more, see [Document 
+ * on the `_id` field. To learn more, see [Document IDs](https://docs.convex.dev/using/document-ids).
+ *
+ * Documents can be loaded using `db.get(id)` in query and mutation functions.
+ *
+ * **Important**: Use `myId.equals(otherId)` to check for equality.
+ * Using `===` will not work because two different instances of `Id` can refer
+ * to the same document.
+ */
+export type Id<TableName extends TableNames = TableNames> =
+  GenericId<TableName>;
+export declare const Id: typeof GenericId;
+
+/**
+ * A type describing your Convex data model.
+ *
+ * This type includes information about what tables you have, the type of
+ * documents sto
