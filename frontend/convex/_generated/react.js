@@ -28,4 +28,19 @@ import {
  *
  * @param name - The name of the query function.
  * @param args - The arguments to the query function.
- * @re
+ * @returns `undefined` if loading and the query's return value otherwise.
+ */
+export const useQuery = useQueryGeneric;
+
+/**
+ * Construct a new {@link ReactMutation}.
+ *
+ * Mutation objects can be called like functions to request execution of the
+ * corresponding Convex function, or further configured with
+ * [optimistic updates](https://docs.convex.dev/using/optimistic-updates).
+ *
+ * The value returned by this hook is stable across renders, so it can be used
+ * by React dependency arrays and memoization logic relying on object identity
+ * without causing rerenders.
+ *
+ * This relies on the {@lin
