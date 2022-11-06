@@ -60,4 +60,25 @@ export const useMutation = useMutationGeneric;
  * by React dependency arrays and memoization logic relying on object identity
  * without causing rerenders.
  *
- * This relies on the {@link ConvexProvider} being abov
+ * This relies on the {@link ConvexProvider} being above in the React component tree.
+ *
+ * @param name - The name of the function.
+ * @returns The {@link ReactAction} object with that name.
+ */
+export const useAction = useActionGeneric;
+
+/**
+ * Get the {@link ConvexReactClient} within a React component.
+ *
+ * This relies on the {@link ConvexProvider} being above in the React component tree.
+ *
+ * @returns The active {@link ConvexReactClient} object, or `undefined`.
+ */
+export const useConvex = useConvexGeneric;
+
+/**
+ * Load data reactively from a paginated query to a create a growing list.
+ *
+ * This can be used to power "infinite scroll" UIs.
+ *
+ * This hook must be used wi
