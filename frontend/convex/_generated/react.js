@@ -81,4 +81,22 @@ export const useConvex = useConvexGeneric;
  *
  * This can be used to power "infinite scroll" UIs.
  *
- * This hook must be used wi
+ * This hook must be used with Convex query functions that match
+ * {@link PaginatedQueryFunction}. This means they must:
+ * 1. Have a first argument must be an object containing `numItems` and `cursor`.
+ * 2. Return a {@link PaginationResult}.
+ *
+ * `usePaginatedQuery` concatenates all the pages
+ * of results into a single list and manages the continuation cursors when
+ * requesting more items.
+ *
+ * Example usage:
+ * ```typescript
+ * const { results, status, loadMore } = usePaginatedQuery(
+ *   "listMessages",
+ *   { initialNumItems: 5 },
+ *   "#general"
+ * );
+ * ```
+ *
+ * If the query `name` or `args` c
