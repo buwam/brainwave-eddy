@@ -110,4 +110,18 @@ export const useConvex = useConvexGeneric;
  * @param options - An object specifying the `initialNumItems` to be loaded in
  * the first page.
  * @param args - The arguments to the query function, excluding the first.
- * @returns A {@link UsePaginatedQueryResult} that includes t
+ * @returns A {@link UsePaginatedQueryResult} that includes the currently loaded
+ * items, the status of the pagination, and a `loadMore` function.
+ */
+export const usePaginatedQuery = usePaginatedQueryGeneric;
+
+/**
+ * Load a variable number of reactive Convex queries.
+ *
+ * `useQueries` is similar to {@link useQuery} but it allows
+ * loading multiple queries which can be useful for loading a dynamic number
+ * of queries without violating the rules of React hooks.
+ *
+ * This hook accepts an object whose keys are identifiers for each query and the
+ * values are objects of `{ name: string, args: Value[] }`. The `name` is the
+ * name of the Convex query functio
