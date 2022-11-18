@@ -39,4 +39,15 @@ export declare const query: QueryBuilderForDataModel<DataModel>;
  *
  * This function will be allowed to modify your Convex database and will be accessible from the client.
  *
- * @param func - The mutation function. It receiv
+ * @param func - The mutation function. It receives a {@link MutationCtx} as its first argument.
+ * @returns The wrapped mutation. Include this as an `export` to name it and make it accessible.
+ */
+export declare const mutation: MutationBuilder<DataModel, API>;
+
+/**
+ * Define an action in this Convex app's public API.
+ *
+ * An action is a function which can execute any JavaScript code, including non-deterministic
+ * code and code with side-effects. Actions are often used to call into third-party services.
+ * Actions execute in a Node.js environment and can interact with the database indirectly by
+ * calling queries and mutations via the provid
