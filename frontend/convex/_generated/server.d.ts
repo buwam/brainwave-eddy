@@ -22,4 +22,21 @@ import {
   DatabaseWriter as GenericDatabaseWriter,
 } from "convex/server";
 import type { DataModel } from "./dataModel.js";
-import type { API } fr
+import type { API } from "./api.js";
+
+/**
+ * Define a query in this Convex app's public API.
+ *
+ * This function will be allowed to read your Convex database and will be accessible from the client.
+ *
+ * @param func - The query function. It receives a {@link QueryCtx} as its first argument.
+ * @returns The wrapped query. Include this as an `export` to name it and make it accessible.
+ */
+export declare const query: QueryBuilderForDataModel<DataModel>;
+
+/**
+ * Define a mutation in this Convex app's public API.
+ *
+ * This function will be allowed to modify your Convex database and will be accessible from the client.
+ *
+ * @param func - The mutation function. It receiv
