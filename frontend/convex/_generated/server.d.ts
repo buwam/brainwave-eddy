@@ -63,4 +63,18 @@ export declare const action: ActionBuilderForAPI<API>;
  * Define an HTTP endpoint.
  *
  * This function will be used to respond to HTTP requests received by a Convex
- * deployment if the requests matche
+ * deployment if the requests matches the path and method where this endpoint
+ * is routed. Be sure to route your endpoint in `convex/http.js`.
+ *
+ * @param func - The endpoint function. It receives a {@link HttpEndpointCtx} as its first argument.
+ * @returns The wrapped endpoint function. Import this function from `convex/http.js` and route it to hook it up.
+ */
+export declare const httpEndpoint: HttpEndpointBuilderForAPI<API>;
+
+/**
+ * A set of services for use within Convex query functions.
+ *
+ * The query context is passed as the first argument to any Convex query
+ * function run on the server.
+ *
+ * This differs from the {@link
