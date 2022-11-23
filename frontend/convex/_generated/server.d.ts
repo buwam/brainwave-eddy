@@ -77,4 +77,26 @@ export declare const httpEndpoint: HttpEndpointBuilderForAPI<API>;
  * The query context is passed as the first argument to any Convex query
  * function run on the server.
  *
- * This differs from the {@link
+ * This differs from the {@link MutationCtx} because all of the services are
+ * read-only.
+ */
+export type QueryCtx = GenericQueryCtx<DataModel>;
+
+/**
+ * A set of services for use within Convex mutation functions.
+ *
+ * The mutation context is passed as the first argument to any Convex mutation
+ * function run on the server.
+ */
+export type MutationCtx = GenericMutationCtx<DataModel, API>;
+
+/**
+ * A set of services for use within Convex action functions.
+ *
+ * The action context is passed as the first argument to any Convex action
+ * function run on the server.
+ */
+export type ActionCtx = GenericActionCtx<API>;
+
+/**
+ * A set of services for use within Convex
