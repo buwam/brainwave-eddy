@@ -29,4 +29,16 @@ export const query = queryGeneric;
 /**
  * Define a mutation in this Convex app's public API.
  *
- * This function will be allowed t
+ * This function will be allowed to modify your Convex database and will be accessible from the client.
+ *
+ * @param func - The mutation function. It receives a {@link MutationCtx} as its first argument.
+ * @returns The wrapped mutation. Include this as an `export` to name it and make it accessible.
+ */
+export const mutation = mutationGeneric;
+
+/**
+ * Define an action in this Convex app's public API.
+ *
+ * An action is a function which can execute any JavaScript code, including non-deterministic
+ * code and code with side-effects. Actions are often used to call into third-party services.
+ * Actions execute in a Node.js environment and can in
