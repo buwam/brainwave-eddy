@@ -9,4 +9,28 @@ export const LiveTranscript = ({
 }: BoxProps & {
   transcript: string;
 }) => {
-  // Create reference to store the DOM element containing the animatio
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+  // Create reference to store the Typed instance itself
+  const typed = React.useRef<Typed | null>(null);
+
+  useEffect(() => {
+    const options = {
+      strings: [transcript],
+      typeSpeed: 10,
+    };
+
+    // elRef refers to the <span> rendered below
+    typed.current = new Typed(el.current! as string | Element, options);
+
+    return () => {
+      // Make sure to destroy Typed instance during cleanup
+      // to prevent memory leaks
+      typed.current?.destroy();
+    };
+  }, [transcript]);
+
+  useEffect(() => typed.current?.start(), []);
+  return (
+    <Center {...props}>
+      <
