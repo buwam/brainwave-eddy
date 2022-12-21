@@ -33,4 +33,20 @@ export const LiveTranscript = ({
   useEffect(() => typed.current?.start(), []);
   return (
     <Center {...props}>
-      <
+      <Flex>
+        {/* <Box
+          className="blur-box"
+          position={"absolute"}
+          width={"50px"}
+          height={10}
+        />{" "} */}
+        <Box
+          overflow={"hidden"}
+          style={{ width: 800, whiteSpace: "nowrap" }}
+          textAlign="right"
+          ref={el}
+        ></Box>
+      </Flex>
+    </Center>
+  );
+};
