@@ -168,3 +168,4 @@ export const GraphSummary = ({ nodes, edges }: GraphSummaryProps) => {
       </Card>
     </Center>
   );
+};
