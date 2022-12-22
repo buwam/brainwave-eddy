@@ -38,4 +38,28 @@ export const CustomNode = ({
           border={`1px solid ${THEME_COLORS.peach}`}
           borderBottom="none"
           fontWeight={600}
-          justifyContent="space-b
+          justifyContent="space-between"
+          p={1}
+          borderRadius={collapsed ? "8px" : "8px 8px 0 0"}
+          onClick={() => setCollapsed((a) => !a)}
+        >
+          <p>{id}</p>
+          {collapsed ? (
+            <ChevronDownIcon
+              _hover={{
+                color: THEME_COLORS.eggshell,
+              }}
+              boxSize={3}
+            />
+          ) : (
+            <ChevronUpIcon
+              _hover={{
+                color: THEME_COLORS.eggshell,
+              }}
+              boxSize={3}
+            />
+          )}
+        </Flex>
+        {!collapsed && (
+          <Flex
+            bgColor={TH
