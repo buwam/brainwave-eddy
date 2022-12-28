@@ -62,4 +62,25 @@ export const CustomNode = ({
         </Flex>
         {!collapsed && (
           <Flex
-            bgColor={TH
+            bgColor={THEME_COLORS.eggshell}
+            border={`1px solid ${THEME_COLORS.peach}`}
+            borderRadius="0 0 12px 12px"
+            p={1}
+          >
+            <ul>
+              {data.sentences.map((sentence: string, index: number) => (
+                <li key={index}>{sentence}</li>
+              ))}
+            </ul>
+          </Flex>
+        )}
+      </Flex>
+      <Handle
+        className="Handle"
+        type="source"
+        position={Position.Bottom}
+        id="a"
+      />
+    </>
+  );
+};
