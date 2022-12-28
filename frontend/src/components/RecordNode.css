@@ -49,4 +49,32 @@
   }
 }
 
-@keyframes p
+@keyframes pulse {
+  0% {
+    transform: scale(3)
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+
+}
+
+@keyframes pulse2 {
+  0% {
+    transform: scale(1.5);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+
+}
