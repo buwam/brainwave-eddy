@@ -65,4 +65,23 @@ export function ToolBar() {
       zIndex="100"
       spacing="20px"
     >
-      {(location.pathname =
+      {(location.pathname === "/about"
+        ? aboutNavLinks
+        : navigationState === NAVIGATION_STATE.SUMMARY
+        ? listNavLinks
+        : location.pathname === "/"
+        ? graphNavLinks
+        : notFoundNavLinks
+      ).map((link) =>
+        link.link ? (
+          <Link to={link.link}>
+            <Flex
+              w="48px"
+              h="48px"
+              borderRadius="50%"
+              alignItems={"center"}
+              justifyContent={"center"}
+              boxShadow={`0 2px 4px ${THEME_COLORS.peach}`}
+              border={`2px solid ${THEME_COLORS.salmon}`}
+              textAlign="center"
+           
