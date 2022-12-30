@@ -34,4 +34,35 @@ export function ToolBar() {
   ];
   const listNavLinks = [
     {
-      
+      icon: <ArrowBackIcon />,
+      onClick: () => setNavigationState(NAVIGATION_STATE.GRAPH),
+    },
+    {
+      link: "/about",
+      icon: <InfoIcon />,
+      onClick: () => {},
+    },
+  ];
+
+  const graphNavLinks = [
+    {
+      link: null,
+      icon: <Icon as={GoListUnordered} />,
+      onClick: () => setNavigationState(NAVIGATION_STATE.SUMMARY),
+    },
+    {
+      link: "/about",
+      icon: <InfoIcon />,
+      onClick: () => {},
+    },
+  ];
+
+  return (
+    <VStack
+      position="absolute"
+      top="40px"
+      left="40px"
+      zIndex="100"
+      spacing="20px"
+    >
+      {(location.pathname =
