@@ -103,4 +103,23 @@ export function ToolBar() {
             borderRadius="50%"
             alignItems={"center"}
             justifyContent={"center"}
-            boxShadow={`0 2px 4px ${THEME_C
+            boxShadow={`0 2px 4px ${THEME_COLORS.peach}`}
+            border={`2px solid ${THEME_COLORS.salmon}`}
+            textAlign="center"
+            lineHeight="50px"
+            fontSize="24px"
+            color={THEME_COLORS.salmon}
+            _hover={{
+              backgroundColor: THEME_COLORS.salmon,
+              color: THEME_COLORS.eggshell,
+            }}
+          >
+            {link.icon}
+          </Flex>
+        )
+      )}
+    </VStack>
+  );
+}
+
+export default ToolBar;
