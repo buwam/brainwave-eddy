@@ -43,4 +43,18 @@ export type Document<TableName extends TableNames> = DocumentByName<
  *
  * @typeParam TableName - A string literal type of the table name (like "users").
  */
-export type I
+export type Id<TableName extends TableNames> = GenericId<TableName>;
+
+/**
+ * An identifier for a document in Convex.
+ *
+ * Convex documents are uniquely identified by their `Id`, which is accessible
+ * on the `_id` field. To learn more, see [Document IDs](https://docs.convex.dev/using/document-ids).
+ *
+ * Documents can be loaded using `db.get(id)` in query and mutation functions.
+ *
+ * **Important**: Use `myId.equals(otherId)` to check for equality.
+ * Using `===` will not work because two different instances of `Id` can refer
+ * to the same document.
+ */
+export declare const Id: Gene
