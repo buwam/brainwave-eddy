@@ -24,4 +24,23 @@ export type TableNames = TableNamesInDataModel<DataModel>;
  *
  * @typeParam TableName - A string literal type of the table name (like "users").
  */
-export type Document<TableName extends TableNames> = Docu
+export type Document<TableName extends TableNames> = DocumentByName<
+  DataModel,
+  TableName
+>;
+
+/**
+ * An identifier for a document in Convex.
+ *
+ * Convex documents are uniquely identified by their `Id`, which is accessible
+ * on the `_id` field. To learn more, see [Document IDs](https://docs.convex.dev/using/document-ids).
+ *
+ * Documents can be loaded using `db.get(id)` in query and mutation functions.
+ *
+ * **Important**: Use `myId.equals(otherId)` to check for equality.
+ * Using `===` will not work because two different instances of `Id` can refer
+ * to the same document.
+ *
+ * @typeParam TableName - A string literal type of the table name (like "users").
+ */
+export type I
