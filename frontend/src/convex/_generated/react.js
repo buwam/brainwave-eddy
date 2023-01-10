@@ -24,4 +24,20 @@ import {
  * This React hook contains internal state that will cause a rerender whenever
  * the query result changes.
  *
- * This relies on the {@link ConvexProvider} being above in the React component tree
+ * This relies on the {@link ConvexProvider} being above in the React component tree.
+ *
+ * @param name - The name of the query function.
+ * @param args - The arguments to the query function.
+ * @returns `undefined` if loading and the query's return value otherwise.
+ */
+export const useQuery = useQueryGeneric;
+
+/**
+ * Construct a new {@link ReactMutation}.
+ *
+ * Mutation objects can be called like functions to request execution of the
+ * corresponding Convex function, or further configured with
+ * [optimistic updates](https://docs.convex.dev/using/optimistic-updates).
+ *
+ * The value returned by this hook is stable across renders, so it can be used
+ * by React dependency arrays and memoization logic r
