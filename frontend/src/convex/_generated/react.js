@@ -77,4 +77,22 @@ export const useAction = useActionGeneric;
 export const useConvex = useConvexGeneric;
 
 /**
- * Load data reactively from a pagin
+ * Load data reactively from a paginated query to a create a growing list.
+ *
+ * This can be used to power "infinite scroll" UIs.
+ *
+ * This hook must be used with Convex query functions that match
+ * {@link PaginatedQueryFunction}. This means they must:
+ * 1. Have a first argument must be an object containing `numItems` and `cursor`.
+ * 2. Return a {@link PaginationResult}.
+ *
+ * `usePaginatedQuery` concatenates all the pages
+ * of results into a single list and manages the continuation cursors when
+ * requesting more items.
+ *
+ * Example usage:
+ * ```typescript
+ * const { results, status, loadMore } = usePaginatedQuery(
+ *   "listMessages",
+ *   { initialNumItems: 5 },
+ *   
