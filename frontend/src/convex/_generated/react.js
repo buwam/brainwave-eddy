@@ -95,4 +95,19 @@ export const useConvex = useConvexGeneric;
  * const { results, status, loadMore } = usePaginatedQuery(
  *   "listMessages",
  *   { initialNumItems: 5 },
- *   
+ *   "#general"
+ * );
+ * ```
+ *
+ * If the query `name` or `args` change, the pagination state will be reset
+ * to the first page. Similarly, if any of the pages result in an InvalidCursor
+ * or QueryScannedTooManyDocuments error, the pagination state will also reset
+ * to the first page.
+ *
+ * To learn more about pagination, see [Paginated Queries](https://docs.convex.dev/using/pagination).
+ *
+ * @param name - The name of the query function.
+ * @param options - An object specifying the `initialNumItems` to be loaded in
+ * the first page.
+ * @param args - The arguments to the query function, excluding the first.
+ * @
