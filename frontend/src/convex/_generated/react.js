@@ -57,4 +57,24 @@ export const useMutation = useMutationGeneric;
  * the corresponding Convex function.
  *
  * The value returned by this hook is stable across renders, so it can be used
- * by React dependency arrays and memoization logic relying on object identit
+ * by React dependency arrays and memoization logic relying on object identity
+ * without causing rerenders.
+ *
+ * This relies on the {@link ConvexProvider} being above in the React component tree.
+ *
+ * @param name - The name of the function.
+ * @returns The {@link ReactAction} object with that name.
+ */
+export const useAction = useActionGeneric;
+
+/**
+ * Get the {@link ConvexReactClient} within a React component.
+ *
+ * This relies on the {@link ConvexProvider} being above in the React component tree.
+ *
+ * @returns The active {@link ConvexReactClient} object, or `undefined`.
+ */
+export const useConvex = useConvexGeneric;
+
+/**
+ * Load data reactively from a pagin
