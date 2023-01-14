@@ -123,4 +123,25 @@ export const usePaginatedQuery = usePaginatedQueryGeneric;
  * of queries without violating the rules of React hooks.
  *
  * This hook accepts an object whose keys are identifiers for each query and the
- * values are objects of `{ name: string, args: Value[] }`. The
+ * values are objects of `{ name: string, args: Value[] }`. The `name` is the
+ * name of the Convex query function to load, and the `args` are the arguments to
+ * that function.
+ *
+ * The hook returns an object that maps each identifier to the result of the query,
+ * `undefined` if the query is still loading, or an instance of `Error` if the query
+ * threw an exception.
+ *
+ * For example if you loaded a query like:
+ * ```typescript
+ * const results = useQueriesGeneric({
+ *   messagesInGeneral: {
+ *     name: "listMessages",
+ *     args: ["#general"]
+ *   }
+ * });
+ * ```
+ * then the result would look like:
+ * ```typescript
+ * {
+ *   messagesInGeneral: [{
+ *   
