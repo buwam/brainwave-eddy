@@ -144,4 +144,23 @@ export const usePaginatedQuery = usePaginatedQueryGeneric;
  * ```typescript
  * {
  *   messagesInGeneral: [{
- *   
+ *     channel: "#general",
+ *     body: "hello"
+ *     _id: ...,
+ *     _creationTime: ...
+ *   }]
+ * }
+ * ```
+ *
+ * This React hook contains internal state that will cause a rerender
+ * whenever any of the query results change.
+ *
+ * Throws an error if not used under {@link ConvexProvider}.
+ *
+ * @param queries - An object mapping identifiers to objects of
+ * `{name: string, args: Value[] }` describing which query functions to fetch.
+ * @returns An object with the same keys as the input. The values are the result
+ * of the query function, `undefined` if it's still loading, or an `Error` if
+ * it threw an exception.
+ */
+export const useQuerie
