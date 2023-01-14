@@ -163,4 +163,4 @@ export const usePaginatedQuery = usePaginatedQueryGeneric;
  * of the query function, `undefined` if it's still loading, or an `Error` if
  * it threw an exception.
  */
-export const useQuerie
+export const useQueries = useQueriesGeneric;
