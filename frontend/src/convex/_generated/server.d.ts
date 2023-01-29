@@ -96,4 +96,24 @@ export type MutationCtx = GenericMutationCtx<DataModel, API>;
  * The action context is passed as the first argument to any Convex action
  * function run on the server.
  */
-export type ActionCtx =
+export type ActionCtx = GenericActionCtx<API>;
+
+/**
+ * A set of services for use within Convex HTTP endpoints.
+ *
+ * The HttpEndpointCtx is passed as the first argument to any Convex HTTP
+ * endpoint run on the server.
+ */
+export type HttpEndpointCtx = GenericHttpEndpointCtx<API>;
+
+/**
+ * An interface to read from the database within Convex query functions.
+ *
+ * The two entry points are {@link DatabaseReader.get}, which fetches a single
+ * document by its {@link Id}, or {@link DatabaseReader.query}, which starts
+ * building a query.
+ */
+export type DatabaseReader = GenericDatabaseReader<DataModel>;
+
+/**
+ * An interface to read from and write to the d
