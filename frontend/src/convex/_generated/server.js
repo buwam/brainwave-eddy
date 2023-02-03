@@ -41,4 +41,17 @@ export const mutation = mutationGeneric;
  *
  * An action is a function which can execute any JavaScript code, including non-deterministic
  * code and code with side-effects. Actions are often used to call into third-party services.
- 
+ * Actions execute in a Node.js environment and can interact with the database indirectly by
+ * calling queries and mutations via the provided {@link ActionCtx} object. Actions need to be defined
+ * in the `/convex/actions  directory`. Queries and mutations, on the other hand, must be defined
+ * outside of the `/convex/actions directory`.
+ *
+ * @param func - The action. It receives a {@link ActionCtx} as its first argument.
+ * @returns The wrapped action. Include this as an `export` to name it and make it accessible.
+ */
+export const action = actionGeneric;
+
+/**
+ * Define a Convex HTTP endpoint.
+ *
+ * @param func - The function. It receiv
