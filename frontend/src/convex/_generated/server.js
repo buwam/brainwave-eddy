@@ -54,4 +54,8 @@ export const action = actionGeneric;
 /**
  * Define a Convex HTTP endpoint.
  *
- * @param func - The function. It receiv
+ * @param func - The function. It receives an {@link HttpEndpointCtx} as its first argument, and a `Request` object
+ * as its second.
+ * @returns The wrapped endpoint function. Route a URL path to this function in `convex/http.js`.
+ */
+export const httpEndpoint = httpEndpointGeneric;
