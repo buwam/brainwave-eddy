@@ -16,4 +16,19 @@ export default function Logo({ color = "#FF5B5B", alternateColor = "#FF5C5C"} : 
       <feOffset dy="4"/>
       <feGaussianBlur stdDeviation="2"/>
       <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4_3"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4_3" result="shape"/>
+      </filter>
+      </defs>
+    </>
+  );
+}
+
+export function SimpleLogo({ color = "#FF5B5B", alternateColor = "#FF5C5C"} : {color?: string, alternateColor?: string}) {
+  return (
+    <>
+      <g filter="url(#filter0_d_4_3)">
+        <circle cx="230" cy="168" r="130.303" fill={color} />
+      </g>
+      <path fill-rule="evenodd" clip-rul
