@@ -33,4 +33,18 @@ function dfs(
   childMap: Map<MapNode, MapNode[]>,
   result: MapNode[]
 ): void {
-  result.push(
+  result.push(node);
+  console.log(result);
+  if (childMap.has(node)) {
+    for (const child of childMap.get(node)!) {
+      dfs(child, childMap, result);
+    }
+  }
+}
+
+export function getTreeOrder(nodes: MapNode[], edges: Edge[]): MapNode[] {
+  const [root, childMap] = findRootAndChildren(nodes, edges);
+  const result: MapNode[] = [];
+  dfs(root, childMap, result);
+  return result;
+}
