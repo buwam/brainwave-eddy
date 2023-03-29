@@ -12,4 +12,20 @@ export default function NotFoundPage() {
     <Layout>
       <Flex flexDir="column" alignItems="center" justifyContent="center" h="100vh" bgColor={THEME_COLORS.peach}>
         <Card minWidth="md" bgColor={THEME_COLORS.eggshell} p={4} borderRadius="8px">
-          <Flex justifyContent="space
+          <Flex justifyContent="space-between">
+            <Flex flexDir="column" alignItems="center" justifyContent="left" p={4}>
+              <Heading size="4xl" color={THEME_COLORS.salmon}>404</Heading>
+              <Heading size="md" color={THEME_COLORS.salmon}>Page not found</Heading>
+            </Flex>
+            <ConfusedUngaBunga />
+          </Flex>
+          <Button
+            as="a" href="/"
+            textDecoration={"none"} _active={{ textDecoration: "none" }}
+            colorScheme="red" mt={4}
+          >Go back home</Button>
+        </Card>
+      </Flex>
+    </Layout>
+  );
+}
