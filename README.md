@@ -14,4 +14,9 @@ Merging speech recognition with natural language processing tools forced us to l
 
 ## Challenges
 1. **Live Speech Chunking** - To distil coherent ideas from a user’s speech while processing the audio live, we had to create a paradigm that parses overlapping speech intervals, forms a disjoint union of the sentences, and then dispatches these two distinct groups to our NLP model for similarity comparison. 
-2. **API Rate Limits**—OpenAI rate-limits
+2. **API Rate Limits**—OpenAI rate-limits compelled us to devise a more efficient processing mechanism for the audio and fewer round trip requests for keyword extraction and embeddings.
+3. **Filler Sentences**—Not every sentence carries a concrete and distinct idea; some sentences result in a dead-end. Such sentences can visually clutter the graph.
+4. **Visualization**—Force graph, a key feature of React Flow, had to be approximated as much as possible. We incorporated some randomness in placements; however, creating a better node placement system could further enhance the clarity and aesthetic appeal of the graph.
+
+## Dream Development
+*
