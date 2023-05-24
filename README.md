@@ -19,4 +19,15 @@ Merging speech recognition with natural language processing tools forced us to l
 4. **Visualization**—Force graph, a key feature of React Flow, had to be approximated as much as possible. We incorporated some randomness in placements; however, creating a better node placement system could further enhance the clarity and aesthetic appeal of the graph.
 
 ## Dream Development
-*
+**AI Inspiration Enhancement**—With generative AI, we could easily extend features such as generating images for coherent ideas, or business plans. 
+**Live Notes**—Eddy can be beneficial in transcribing and organizing meeting and lecture notes. With enhancements to our summary feature, Eddy could potentially generate detailed notes from a live recording of a meeting.
+
+## Tools Used
+**User Interface:** React, Chakra UI, React Flow, Figma
+**AI Engine:** HuggingFace, OpenAI Whisper, OpenAI GPT-3, OpenAI Embeddings, NLTK
+**API:** FastAPI
+
+# Extra Elements
+
+## Mindmap Algorithm
+![Mindmap Algorithm](https://i.imgur.com/QtqeBjG.png)
